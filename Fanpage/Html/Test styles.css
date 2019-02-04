@@ -1,0 +1,128 @@
+
+
+html{
+    background: black;
+}
+
+
+ @import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  flex: 0 0 21%;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+p{
+    text-indent: 0px;
+}
+
+.filmitem{
+    min-height:350px!important
+}
+
+.flex-itemCont {
+  margin:35px;
+  background:#1b1b1b;
+  font-family:Lato, sans-serif;
+  border:1px solid #000;
+}
+
+.pageSingle h3{
+    font-size:22px
+}
+
+.pageSingle h3 p{
+    font-size:30px;
+    color:#193445;
+    margin:0
+}
+
+.pageSingle{
+    padding-top:0;
+    padding-bottom:30px
+}
+
+.pageSingle .content{
+    padding:0 25px;
+    max-width:1300px
+}
+
+.pageSingle #projectGrid{
+    width:100%;
+    float:left
+}
+
+#content{
+    width:100%;
+    position:relative;
+}
+
+#projectGrid{
+    padding-top:40px;
+    margin-bottom:30px
+    width:1300px;
+    display: flex;
+}
+
+.flex-itemCont h3 a{
+    color:#fff;
+    opacity:.65;
+    text-decoration: none
+}
+.flex-itemCont h3 a:hover{
+    color:#fff;
+    opacity:1
+}
+
+.flex-itemCont h3{
+    padding:15px;
+    text-align:center;
+    min-height:90px
+}
+
+.flex-thumbnail {
+    display: block;
+    width: 100%;
+    height:auto;
+
+}
+
+.flex-item p{
+    font-size:16px;
+    padding:0 15px 15px;
+    display:block;
+    color:#fff
+}
+
+.pageSingle .content{
+	padding-left: 0px !important;
+	padding-right: 0px !important
+}
+
+.pageSingle .content{
+	padding-top: 0px !important
+}
+
