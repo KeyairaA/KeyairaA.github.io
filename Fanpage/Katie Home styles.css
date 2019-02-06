@@ -10,6 +10,7 @@ body{
 html{
     background: url(../Images/Katie1.jpg) fixed;
     -webkit-background-size: cover;
+	background-size: cover;
 }
 
 @font-face {
