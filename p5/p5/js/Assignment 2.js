@@ -32,7 +32,7 @@ function setup(){
 }
 
 function draw(){
-		if(start == true){
+	if(start == true){
 		game();
 	}
 	if (end== true){
@@ -87,7 +87,7 @@ function check(i, j, bx, by){
       ydir = -ydir;
       score += 1;
     }
-  if(score == 1){
+  if(score == 100){
 	start = false;
 	end = true;
 }
