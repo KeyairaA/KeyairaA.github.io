@@ -1084,7 +1084,7 @@ function startStory_M_Homo_Hero(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome man with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -1102,7 +1102,7 @@ function conStory_M_Homo_Hero(){
 	title.hide();
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and you will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -1127,7 +1127,7 @@ function Stutter_M_Homo_Hero(){
 
 	title = createElement('h2',"“He-He-Hello, Mr.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into his hand. He pretended to cough when he realized you were looking at him. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” He continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -1188,7 +1188,7 @@ function OneEncounter_M_Homo_Hero(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -1216,7 +1216,7 @@ function OneDead_M_Homo_Hero(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -1231,10 +1231,10 @@ function Run_M_Homo_Hero(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -1275,7 +1275,7 @@ function RedEncounter_M_Homo_Hero(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
@@ -1306,7 +1306,7 @@ function startStory_M_Homo_Vil(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome man with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -1322,7 +1322,7 @@ function conStory_M_Homo_Vil(){
 	title.hide();
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and you will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -1347,7 +1347,7 @@ function Stutter_M_Homo_Vil(){
 
 	title = createElement('h2',"“He-He-Hello, Mr.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into his hand. He pretended to cough when he realized you were looking at him. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” He continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -1365,7 +1365,7 @@ function Confindently_M_Homo_Vil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"“Hello, Mr. Lancaster. I am looking forward to working with you.” You exclaimed while holding out my hand. He smiles even brighter and take my hand and gives it a firm shake. “Nice to meet you,"  + nameInput.value() + ", and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place” He says while walking and giving me a wink when he mentioned showing me around.");
+	title = createElement('h2',"“Hello, Mr. Lancaster, I am looking forward to working with you.” You exclaimed while holding out my hand. He smiles even brighter and take my hand and gives it a firm shake. “Nice to meet you, "  + nameInput.value() + ", and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place” He says while walking and giving me a wink when he mentioned showing me around.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -1408,7 +1408,7 @@ function OneEncounter_M_Homo_Vil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -1436,7 +1436,7 @@ function OneDead_M_Homo_Vil(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -1451,10 +1451,10 @@ function Run_M_Homo_Vil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -1495,7 +1495,7 @@ function RedEncounter_M_Homo_Vil(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
@@ -1526,7 +1526,7 @@ function startStory_M_Homo_Villian(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome man with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -1542,7 +1542,7 @@ function conStory_M_Homo_Villian(){
 	title.hide();
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and you will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -1567,7 +1567,7 @@ function Stutter_M_Homo_Villian(){
 
 	title = createElement('h2',"“He-He-Hello, Mr.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into his hand. He pretended to cough when he realized you were looking at him. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” He continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -1628,7 +1628,7 @@ function OneEncounter_M_Homo_Villian(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -1656,7 +1656,7 @@ function OneDead_M_Homo_Villian(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -1671,10 +1671,10 @@ function Run_M_Homo_Villian(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -1715,7 +1715,7 @@ function RedEncounter_M_Homo_Villian(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
@@ -1746,7 +1746,7 @@ function startStory_M_Hetero_Vil(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome man with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -1762,7 +1762,7 @@ function conStory_M_Hetero_Vil(){
 	title.hide();Hetero
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Vivianne Lancaster and will be working under me while you intern here.” Vivianne said with a 1000-watt smile on her face. Just looking at her face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Vivianne Lancaster and you will be working under me while you intern here.” Vivianne said with a 1000-watt smile on her face. Just looking at her face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -1787,7 +1787,7 @@ function Stutter_M_Hetero_Vil(){
 
 	title = createElement('h2',"“He-He-Hello, Ms.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into her hand. She pretended to cough when she realized you were looking at her. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” She continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Vivianne. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” She says while walking and giving me a wink when she mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Vivianne. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” She says while walking and giving me a wink when she mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -1848,7 +1848,7 @@ function OneEncounter_M_Hetero_Vil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -1876,7 +1876,7 @@ function OneDead_M_Hetero_Vil(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -1891,10 +1891,10 @@ function Run_M_HeteroHeteroVil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -1935,7 +1935,7 @@ function RedEncounter_M_Hetero_Vil(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the lady in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
@@ -1966,7 +1966,7 @@ function startStory_M_Hetero_Villian(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall beautiful woman with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -1982,7 +1982,7 @@ function conStory_M_Hetero_Villian(){
 	title.hide();
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Vivianne Lancaster and will be working under me while you intern here.” Vivianne said with a 1000-watt smile on her face. Just looking at her face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Vivianne Lancaster and you will be working under me while you intern here.” Vivianne said with a 1000-watt smile on her face. Just looking at her face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -2007,7 +2007,7 @@ function Stutter_M_Hetero_Villian(){
 
 	title = createElement('h2',"“He-He-Hello, Ms.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into her hand. She pretended to cough when she realized you were looking at her. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” She continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Vivianne. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” She says while walking and giving me a wink when he mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Vivianne. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” She says while walking and giving me a wink when he mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -2068,7 +2068,7 @@ function OneEncounter_M_Hetero_Villian(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -2096,7 +2096,7 @@ function OneDead_M_Hetero_Villian(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -2111,10 +2111,10 @@ function Run_M_Hetero_Villian(){
 	firstOption.hide();Bi
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -2155,7 +2155,7 @@ function RedEncounter_M_Hetero_Villian(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the lady in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
@@ -2187,7 +2187,7 @@ function startStory_M_Bi_Vil(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome man with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -2203,7 +2203,7 @@ function conStory_M_Bi_Vil(){
 	title.hide();
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and you will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -2228,7 +2228,7 @@ function Stutter_M_Bi_Vil(){
 
 	title = createElement('h2',"“He-He-Hello, Mr.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into his hand. He pretended to cough when he realized you were looking at him. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” He continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -2289,7 +2289,7 @@ function OneEncounter_M_Bi_Vil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -2317,7 +2317,7 @@ function OneDead_M_Bi_Vil(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -2332,10 +2332,10 @@ function Run_M_Bi_Vil(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -2376,7 +2376,7 @@ function RedEncounter_M_Bi_Vil(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
@@ -2407,7 +2407,7 @@ function startStory_M_Bi_Villian(){
 	egoInput.hide();
 	title1.hide();
 
-	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome/beautiful man/woman with the most beautiful brown eyes you have ever seen.");
+	title = createElement('h2',"You woke up in a great mood today. The sun was shining brightly in the sky, your breakfast came out perfectly, and this is the day that you start to live your best life possible. Today is the day you start at Legion. Legion is a fortune 500 company that employs people with powers and gives them the opportunity to make a positive change in the world. Legion is the type of company that everyone looked up to and wants to work for. They get thousands of applications a year. Yet, here you are walking through the tallest building in the world with state-of-the-art technology and being greeted by a tall handsome man with the most beautiful brown eyes you have ever seen.");
 	title.position(0,10);
 
 	firstOption = createA('#','Contiune');
@@ -2423,7 +2423,7 @@ function conStory_M_Bi_Villian(){
 	title.hide();
 	firstOption.hide()
 
-	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
+	title = createElement('h2',"“Hi, you must be, " + nameInput.value() + "! Welcome to Legion. I’m Angelo Lancaster and you will be working under me while you intern here.” Angelo said with a 1000-watt smile on his face. Just looking at his face made me optimistic for the future.");
 	title1 = createElement('h2',"How would you like to reply?");
 	title.position(0,10);
 	title1.position(540,90);
@@ -2448,7 +2448,7 @@ function Stutter_M_Bi_Villian(){
 
 	title = createElement('h2',"“He-He-Hello, Mr.Lancaster. I, um, looking forward to working with you.” You finally managed to stutter through your sentence. You cannot believe the first thing you said to your boss was a struggle sentence. You were in the middle of mentally beating yourself up when all of a sudden you heard laughter. You look up to see your boss laughing lightly into his hand. He pretended to cough when he realized you were looking at him. “Sorry, it just your nervousness remembered me a lot of myself when I started here. I was so nervous that I spilled coffee all over an important client.” He continued to laugh, this time without hiding it.");
 	title.position(0,10);
-	title1 = createElement('h2',"Don’t worry ,"  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
+	title1 = createElement('h2',"Don’t worry, "  + nameInput.value() + " it is nice to meet you, and please call me Angelo. Now follow me and I’ll show you to your desk and after you get settled I’ll show you the ropes of this place.” He says while walking and giving me a wink when he mentioned showing me around.")
 	title1.position(0,150);
 
 	firstOption = createA('#','Contiune');
@@ -2509,7 +2509,7 @@ function OneEncounter_M_Bi_Villian(){
 	firstOption.hide();
 	secondOption.hide();
 
-	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow to the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
+	title = createElement('h2',"You look at the pen and of course you are going to pick it up. You aced tests with this pen. When you bend down and picked it up, you also realized that you shoe was untied. Just as you go to tie your shoes, you felt a rush of wind rush over your head, following with a loud crashing sound. You looked up to find a destroyed, wooden desk right in front of you. ‘What the hell?’ You think as you turn around to the direction the desk came from. What you saw shocked you to the core. Two people were fighting just behind you and one of them clearly has powers. One of them is wearing a green and black suit using some sort of psychic powers and the other person was wearing a red trench coat and hat and jumping around as if not having powers does not put her at a disadvantage here. The red trench coat lady lands a heavily blow on the one in green. They land just a couple feet from you. They get up and you two make eye contact and they smile at you. All of a sudden you have an intense sense of dread.");
 	title.position(0,10);
 
 	title1 = createElement('h2',"Get up and run away?");
@@ -2537,7 +2537,7 @@ function OneDead_M_Bi_Villian(){
 	title = createElement('h2',"You look at the pen and shrug. 'Who cares about a pen?’ you think. You continued to walk through the lobby not thinking twice about the pen. You were so focused on what restaurant to eat at that you didn’t realize a desk heading straight for the back of your head. Next thing you know, everything goes black.")
 	title.position(0,10);
 
-	title1 = createElement('h2',"Congrats. You died by a desk.")
+	title1 = createElement('h2',"Congratulations. You died by a desk.")
 	title1.position(525,130);
 
 	firstOption = createA('#','Really!? All because I didn’t pick up a pen. Go back!');
@@ -2552,10 +2552,10 @@ function Run_M_Bi_Villian(){
 	firstOption.hide();Bi
 	secondOption.hide();
 
-	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you running to.")
+	title = createElement('h2',"You get up as quick as you can and run in the direction of… actually you don’t know where you are running to.")
 	title.position(0,10);
 
-	firstOption = createA('#','Beautiful person in red. (click red coat)');
+	firstOption = createA('#','Beautiful person in red. (click red hat)');
 	firstOption.position(500,180);
 	createElement('br');
 	secondOption = createA('#','The Door. (click the door)');
@@ -2596,7 +2596,7 @@ function RedEncounter_M_Bi_Villian(){
 	redCoat.hide();
 	door.hide();
 
-	title = createElement('h2',"You run towards the lady/man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
+	title = createElement('h2',"You run towards the man in red and as you ran towards your possible savior, you hear footsteps behind you. Hearing that just made you run faster towards the red individual. “Help me!” You scream as you run faster. The red individual finally decided to literally jump into action and managed to land between you and the green freak. You run further into the building and hid into the first room you could see. You don’t know how long you stayed in that room but eventually you hear footsteps approaching and the door opens. To be contiuned…");
 	title.position(0,10);
 
 	firstOption = createA('#','Want to Choose another path?');
