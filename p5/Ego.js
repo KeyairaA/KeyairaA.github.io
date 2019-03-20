@@ -819,7 +819,7 @@ function Ego_Man_Woman_Hero(){
 	createElement('br');
 
   	egoInput = createInput();
-  	//egoInput.changed(startStory_M_Hetero_Hero);
+  	egoInput.changed(startStory_M_Hetero_Hero);
 }
 
 function Ego_Man_Woman_Vil(){
@@ -830,7 +830,7 @@ function Ego_Man_Woman_Vil(){
 	createElement('br');
 
   	egoInput = createInput();
-  	//egoInput.changed(startStory_M_Hetro_Vil);
+  	egoInput.changed(startStory_M_Hetro_Vil);
 }
 
 function Ego_Man_Woman_Villan(){
@@ -841,7 +841,7 @@ function Ego_Man_Woman_Villan(){
 	createElement('br');
 
   	egoInput = createInput();
-  	//egoInput.changed(startStory_M_Hetro_Villian);
+  	egoInput.changed(startStory_M_Hetro_Villian);
 }
 
 function Ego_Man_Bi_Hero(){
@@ -852,7 +852,7 @@ function Ego_Man_Bi_Hero(){
 	createElement('br');
 
   	egoInput = createInput();
-  	//egoInput.changed(startStory_M_Bi_Hero);
+  	egoInput.changed(startStory_M_Bi_Hero);
 }
 
 function Ego_Man_Bi_Vil(){
@@ -863,7 +863,7 @@ function Ego_Man_Bi_Vil(){
 	createElement('br');
 
   	egoInput = createInput();
-  	//egoInput.changed(startStory_M_Bi_Vil);
+  	egoInput.changed(startStory_M_Bi_Vil);
 }
 
 function Ego_Man_Bi_Villan(){
@@ -874,7 +874,7 @@ function Ego_Man_Bi_Villan(){
 	createElement('br');
 
   	egoInput = createInput();
-  	//egoInput.changed(startStory_M_Bi_Villian);
+  	egoInput.changed(startStory_M_Bi_Villian);
 }
 
 //Woman
