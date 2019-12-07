@@ -3,7 +3,6 @@ body{
 	margin: 0px 0px 0px 0px;
 	text-align: center;
 	font-size: 20px;
-	text-transform: uppercase;
 
 }
 
@@ -60,7 +59,7 @@ p {
 
 .date {
     background: #fe921f;
-    color: #ffffff; display: inline-block;
+    color: black; display: inline-block;
     font-family: sans-serif;
     font-size: 12px;
     font-weight: bold;
