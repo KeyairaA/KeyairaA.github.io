@@ -58,8 +58,8 @@ p {
 }
 
 .date {
-    background: #fe921f;
-    color: black; display: inline-block;
+    background: black;
+    color: white; display: inline-block;
     font-family: sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -67,5 +67,4 @@ p {
     letter-spacing: 1px;
     margin: 0 0 30px;
     padding: 10px 15px 8px;
-    text-transform: uppercase;
 }
