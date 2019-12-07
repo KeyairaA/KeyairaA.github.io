@@ -1,1 +1,48 @@
 
+body{
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul{
+    border: 1px solid #00000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul li{
+    display: inline-block;
+    float: none;
+}
+
+
+li a {
+  font-family:Sans-serif;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  line-height: -90px;
+}
+
+li a:hover:not(.active) {
+  background-color: none;
+  color: red;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 75px;
+    margin: 0px;
+}
