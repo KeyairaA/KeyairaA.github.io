@@ -16,6 +16,16 @@ html{
     src: url('Code_Pro_Demo.otf') format('opentype');
 }
 
+@font-face {
+    font-family: '2-questa_grande_regular_31';
+    src: url('2-questa_grande_regular_31-webfont.otf') format('opentype');
+
+}
+
+body{
+font-family: 2-questa_grande_regular_31,Code_Pro_Demo;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
